@@ -1,0 +1,4 @@
+train: ../data/yolo_dataset/images/train
+val: ../data/yolo_dataset/images/val
+nc: 3
+names: ['with_mask', 'without_mask', 'mask_weared_incorrect']
