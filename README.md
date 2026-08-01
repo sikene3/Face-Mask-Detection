@@ -104,7 +104,7 @@ Face Mask Detection/
 ### Step 1: Navigate to the project
 
 ```bash
-cd "Face Mask Detection"
+cd Face-Mask-Detection
 ```
 
 ### Step 2: Install dependencies
@@ -224,8 +224,8 @@ Training outputs available in `outputs/runs/detect/mask_detection_model-2/`:
 - `results.png` — Loss and metric curves
 - `confusion_matrix.png` — Classification confusion matrix
 - `BoxPR_curve.png` — Precision-Recall curve
-- `weights/best.pt` — Best model weights
-- `weights/last.pt` — Last epoch weights
+- The deployable best checkpoint is stored once at `models/best.pt`.
+- Per-run checkpoints are generated locally and excluded from Git.
 
 ---
 
