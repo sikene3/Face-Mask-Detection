@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+data/raw/
+data/yolo_dataset/
+outputs/snapshots/
+outputs/**/weights/
+*.log
+.DS_Store
+Thumbs.db
